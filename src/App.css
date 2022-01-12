@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -27,12 +28,26 @@
 .App-link {
   color: #61dafb;
 }
+input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+button{
+  border-radius: 10px;
+  padding: 10px 20px;
+  background-color: #61dafb;
+  font-size: 20px;
+  color: azure;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details{
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.details p{
+  margin: 10px;
 }
